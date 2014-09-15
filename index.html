@@ -16,24 +16,40 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		
-		<div id = "container">
+		<div class = "container">
 			<div id = "header">
 				<img src = "images/about_profile.jpg" id = "profileImage"/>
-				<h1>Home</h1>
+				<h1 id = "headerTitle">Home</h1>
 			</div>
+			
+			<hr>
+			
 			<div id = "nav">
-				<a href = "index.html">Home</a>
-				<a href = "about.html">About</a>
+				<a href = "index.html">Home</a> | 
+				<a href = "about.html">About</a> | 
 				<a href = "">Blogs</a>
 			</div>
+			
+			<hr>
+			
 			<div id = "body">
 
 			</div>
+			
+			<hr>
+			
 			<div id = "footer">
-				<a href = "http://www.linkedin.com/pub/paul-nesbitt/25/447/29a/" target = "_blank"><img src = "images/linkedin.png" class = "contactImages"/></a>
-				<a href = "https://github.com/pnesbitt" target = "_blank"><img src = "images/github.png" class = "contactImages"/></a>
-				<a href = "mailto:paul.nesbitt@erdosmiller.com" target = "_top">paul.nesbitt@erdosmiller.com</a>
-				(832)489-8434
+				<table id = "contactInfo">
+					<tr>
+						<td><a href = "mailto:paul.nesbitt@erdosmiller.com" target = "_top">paul.nesbitt@erdosmiller.com</a></td>
+						<td rowspan = "2"><a href = "http://www.linkedin.com/pub/paul-nesbitt/25/447/29a/" target = "_blank"><img src = "images/linkedin.png" class = "socialContactImages"/></a></td>
+						<td rowspan = "2"><a href = "https://github.com/pnesbitt" target = "_blank"><img src = "images/github.png" class = "socialContactImages"/></a></td>
+					</tr>
+					<tr>
+						<td><a href = "tel: +18324898434">(832)489-8434</a></td>
+					</tr>
+				</table>
+				<div id = "clear"></div>
 			</div>
 		</div>
 		
