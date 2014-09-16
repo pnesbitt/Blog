@@ -55,6 +55,11 @@
 	height: 20px;
 }
 
+.blogTitles {
+	margin: 0px;
+	text-decoration: none;
+}
+
 * {   
     box-sizing: border-box;
 }
@@ -74,4 +79,8 @@ a {
 hr {
 	margin: 0px;
 	border-color: black;
+}
+
+span {
+	color: blue;
 }
