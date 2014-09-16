@@ -1,5 +1,5 @@
 #header {
-
+	background-color: #808080;
 }
 
 #headerTitle {
@@ -7,15 +7,16 @@
 }
 
 #nav {
-
+	background-color: #999999;
 }
 
 #body {
+	background-color: #CCCCCC;
 	padding: 20px;
 }
 
 #footer {
-
+	background-color: #999999;
 }
 
 #contactInfo {
@@ -37,6 +38,7 @@
 	margin: auto;
 	padding: 0px;
 	width: 90%;
+	height: 90%;
 	border: 1px solid black;
 	border-radius: 5px;
 	background-color: white;
@@ -69,6 +71,7 @@ a {
 	margin: 5px;
 }
 
-p {
-	display: inline;
+hr {
+	margin: 0px;
+	border-color: black;
 }
