@@ -2,90 +2,86 @@
     box-sizing: border-box;
 }
 
-html {
-	background-color: black;
+body {
+	background: #ccc;
+	font-family: Georgia
+    font-size: 20px;
 }
 
 div {
-	padding: 5px;
+    padding: 10px;
 }
 
-a {
-	margin: 5px;
+.navigationLink, .navigationLink:active, .navigationLink:visited {
+	text-decoration: none;
+	color: #aaa;
+    margin: 0px 10px;
 }
 
-hr {
-	margin: 0px;
-	border-color: black;
+.navigationLink:hover {
+	color: #FF3300;
 }
 
-span {
-	margin: 0px 5px 0px;
-	color: blue;
+.header {
+    width: 100%;
+    padding: 20px;
+    color: #aaa;
+    background-color: #111;
 }
 
-#header {
-	background-color: #808080;
+.header:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 
-#headerTitle {
-	display: inline;
-}
-
-#nav {
-	background-color: #999999;
-}
-
-#body {
-	background-color: #CCCCCC;
-	padding: 20px;
-}
-
-#footer {
-	background-color: #999999;
-}
-
-#contactInfo {
-	float: right;
-}
-
-#profileImage {
-	width: 10%;
-	height: 10%;
-	display: inline;
-	border-radius: 100%;
-}
-
-#clear {
-	clear: both;
+.navigation {
+    background-color: #333;
 }
 
 .container {
-	margin: auto;
-	padding: 0px;
-	width: 90%;
-	height: 90%;
-	border: 1px solid black;
-	border-radius: 5px;
-	background-color: white;
+    margin: auto;
+    width: 75em;
 }
+
+.footer {
+    background-color: #111;
+    color: #aaa;
+}
+
+.footer:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.socialLinks {
+    float: right;
+}
+
+.phoneEmailLinks {
+    float: right;
+}
+
+.linkWrapper {
+    margin: 0 10px;
+}
+
+.socialContactLink, .socialContactLink:active, .socialContactLink:visited {
+	text-decoration: none;
+	color: #aaa;
+}
+
+.socialContactLink:hover {
+	color: #FF3300;
+}
+
 
 .socialContactImages {
-	width: 50px;
-	height: 50px;
-	display: inline;
-}
-
-.contactImages {
-	width: 20px;
-	height: 20px;
-}
-
-.blogTitles {
-	margin: 0px;
-	text-decoration: none;
-}
-
-.separator {
-	margin: 5px;
+    width: 50px;
+    height: 50px;
 }

@@ -7,7 +7,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
         <link rel="stylesheet" href="css/stylesheet.css">
         
 		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -17,24 +16,15 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		
+        <div class = "header"><h1><a href = "index.html" class = "navigationLink">Home</a></h1><h6>Welcome</h6></div>
+        <div class = "navigation">
+            <span class = "linkWrapper"><a href = "index.html" class = "navigationLink">Home</a></span> | 
+            <span class = "linkWrapper"><a href = "blog.html" class = "navigationLink">Blog</a></span> | 
+            <span class = "linkWrapper"><a href = "about.html" class = "navigationLink">About</a></span> | 
+            <span class = "linkWrapper"><a href = "contact.html" class = "navigationLink">Contact</a></span>
+        </div>
 		<div class = "container">
-			<div id = "header">
-				<img src = "images/about_profile.jpg" id = "profileImage"/>
-				<h1 id = "headerTitle">Home</h1>
-			</div>
-			
-			<hr>
-			
-			<div id = "nav">
-				<a href = "index.html">Home</a> | 
-				<a href = "blog.html">Blog</a> | 
-				<a href = "about.html">About</a> | 
-				<a href = "contact.html">Contact</a>
-			</div>
-			
-			<hr>
-			
-			<div id = "body">
+			<div class = "body">
 				<h1>cout << "Hello world!";</h1>
 				<p>Welcome to this terribly designed blog. More updates to come when I become more proficient at this.</p>
 				
@@ -66,28 +56,27 @@
 				<span>#Bacon</span>
 				<span>#OinkOink</span>
 			</div>
-			
-			<hr>
-			
-			<div id = "footer">
-				<table id = "contactInfo">
-					<tr>
-						<td>✉ <a href = "mailto:paul.nesbitt@erdosmiller.com" target = "_top">paul.nesbitt@erdosmiller.com</a></td>
-						<td rowspan = "2"><a href = "http://www.linkedin.com/pub/paul-nesbitt/25/447/29a/" target = "_blank"><img src = "images/linkedin.png" class = "socialContactImages"/></a></td>
-						<td rowspan = "2"><a href = "https://github.com/pnesbitt" target = "_blank"><img src = "images/github.png" class = "socialContactImages"/></a></td>
-					</tr>
-					<tr>
-						<td>☎ <a href = "tel: +18324898434">(832)489-8434</a></td>
-					</tr>
-				</table>
-				<div id = "clear"></div>
-			</div>
 		</div>
+        <div class = "navigation">
+            <span class = "linkWrapper"><a href = "index.html" class = "navigationLink">Home</a></span> | 
+            <span class = "linkWrapper"><a href = "blog.html" class = "navigationLink">Blog</a></span> | 
+            <span class = "linkWrapper"><a href = "about.html" class = "navigationLink">About</a></span> | 
+            <span class = "linkWrapper"><a href = "contact.html" class = "navigationLink">Contact</a></span>
+        </div>
+        <div class = "footer">
+            <div class = "socialLinks">
+                <span class = "linkWrapper"><a href = "http://www.linkedin.com/pub/paul-nesbitt/25/447/29a/" target = "_blank" class = "navigationLink"><img src = "images/linkedin.png" class = "socialContactImages"/></a></span>
+                <span class = "linkWrapper"><a href = "https://github.com/pnesbitt" target = "_blank" class = "navigationLink"><img src = "images/github.png" class = "socialContactImages"/></a></span>
+            </div>
+            <div class = "phoneEmailLinks">
+                <span class = "linkWrapper">Copyright © 2014</span> |
+                <span class = "linkWrapper">✉ <a href = "mailto:paul.nesbitt@erdosmiller.com" target = "_top"  class = "navigationLink">paul.nesbitt@erdosmiller.com</a></span> |
+                <span class = "linkWrapper">☎ <a href = "tel: +18324898434" class = "navigationLink">(832)489-8434</a></span>
+            </div>
+        </div>
 		
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
